@@ -1,0 +1,108 @@
+body {
+	margin: 0;
+	background-image: url("images/nightSky.jpeg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#title{
+	height: 50px;
+	width: 350px;
+	padding: 20px;
+	margin: 25px auto 0;
+	text-align: center;
+	font-size: 40px;
+	color: #fff;
+}
+
+#main {
+	height: 330px;
+	width: 320px;
+	margin: 30px auto;
+	padding: 50px 30px;
+	border-radius: 10px;
+	color: #fff;
+	background-color: #bbdefb2b;
+	border: 2px solid #ffffff8a;
+}
+
+/* Search Bar in Main */
+#searchBar {
+	width: 320px;
+	height: 40px;
+	margin-bottom: 35px;
+	position: relative;
+}
+
+#cityName {
+	width: 277px;
+	height: 40px;
+	padding: 5px 10px;
+	font-size: 20px;
+	color: #fff;
+	background-color: #00000000;
+	border: 2px solid black;
+	border-radius: 20px;
+}
+
+#searchIcon {
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 40px;
+	height: 40px;
+	color: #ffffffe0;
+	font-size: 17px;
+	padding-left: 5px;
+	padding-top: 3px;
+	background-color: #00000000;
+	border: 2px solid black;
+	border-radius: 60%;
+}
+
+/* Output from Search Bar */
+.result{
+	width: 300px;
+	height: 24px;
+	margin: 10px 0;
+	padding: 8px 10px;
+	text-align: left;
+	font-size: 20px;
+}
+
+#city {
+	font-size: 26px;
+}
+
+#temp {
+	height: 29px;
+	font-size: 26px;
+}
+
+#condition  {
+	height: 45px;
+	margin: 10px 0;
+	position: relative;
+}
+
+#weatherIcon {
+	display: none;
+	height: 62px;
+	width: 62px;
+	position: absolute;
+	top: 0;
+}
+
+#weather {
+	font-size: 24px;
+	display: inline-block;
+	position: absolute;
+	top: 18px;
+	left: 80px;
+	margin: 0;
+}
+
+#humidity, #windSpeed {
+	height: 19px;
+	margin: 5px 0;
+}

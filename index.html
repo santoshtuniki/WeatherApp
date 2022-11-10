@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+		<title>Weather App</title>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<!-- Load icon library -->
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
+		<!-- Link to External CSS -->
+		<link href="index.css" rel="stylesheet">
+
+		<!-- Link to External JS -->
+		<script src="index.js"></script>
+	</head>
+
+	<body>
+		<div id="title">
+			WEATHER APP
+		</div>
+
+		<div id="main">
+			<div id="searchBar">
+				<input type="search" name="cityName" id="cityName" list="cityList" autocomplete="on">
+				<datalist id="cityList">
+					<option value="Bangalore"></option>
+					<option value="Beijing"></option>
+					<option value="Delhi"></option>
+					<option value="Hyderabad"></option>
+					<option value="Kolkata"></option>
+					<option value="London"></option>
+					<option value="Mumbai"></option>
+					<option value="Paris"></option>
+					<option value="Tokyo"></option>
+				</datalist>
+				<button id="searchIcon" type="button" onclick="showWeather()">
+					<i class="fa-solid fa-magnifying-glass"></i>
+				</button>
+			</div>
+
+			<div id="searchResult">
+				<p id="city" class="result"></p>
+				<p id="temp" class="result"></p>
+				<div id="condition" class="result">
+					<img id="weatherIcon" src="" alt="weatherIcon">
+					<p id="weather"></p>
+				</div>
+				<p id="humidity" class="result"></p>
+				<p id="windSpeed" class="result"></p>
+			</div>
+		</div>
+	</body>
+
+</html>
