@@ -1,5 +1,6 @@
 body {
-	margin: 0;
+	width: 100%;
+	min-height: 100vh;
 	background-image: url("images/nightSky.jpeg");
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -7,7 +8,7 @@ body {
 
 #title{
 	height: 50px;
-	width: 350px;
+	width: 320px;
 	padding: 20px;
 	margin: 25px auto 0;
 	text-align: center;
@@ -18,12 +19,14 @@ body {
 #main {
 	height: 330px;
 	width: 320px;
-	margin: 30px auto;
-	padding: 50px 30px;
+	margin: auto;
+	margin-top: 30px;
+	padding: 40px 20px;
 	border-radius: 10px;
 	color: #fff;
 	background-color: #bbdefb2b;
 	border: 2px solid #ffffff8a;
+	position: relative;
 }
 
 /* Search Bar in Main */
@@ -106,3 +109,4 @@ body {
 	height: 19px;
 	margin: 5px 0;
 }
+
